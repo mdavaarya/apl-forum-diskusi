@@ -91,6 +91,10 @@ describe('authUserReducer function', () => {
     expect(nextState.isPreload).toBe(false);
   });
 
+  it('sengaja gagal untuk bukti screenshot', () => {
+  expect(true).toBe(false);
+});
+
   it('harus mengubah isPreload menjadi false ketika asyncPreloadAuthUser.rejected di-dispatch', () => {
     const initialState = {
       user: null,
